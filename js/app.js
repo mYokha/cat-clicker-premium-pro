@@ -137,10 +137,6 @@ $(function(){
 	    			nameField.val('');
 	    			clicksField.val('');
 
-	    			for(var i = 0; i < octopus.getCats().length; i++){
-	    				if () {}
-	    			}
-
 	    			catView.render();
     			}
     		})(this.$nameField, this.$clicksField));
