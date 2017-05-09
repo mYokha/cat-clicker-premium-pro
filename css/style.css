@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {box-sizing: border-box;}
+
+body {
+    font-family: Arial;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+figure {
+	padding: 10px;
+}
+
+li:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#score {
+	font-weight: 700;
+}
+
+img {
+	cursor: pointer;
+}
+
+#form {
+	margin: 10px;
+}
+
+#admin-form {
+	display: flex;
+	flex-direction: column;
+	width: 265px;
+}
+
+.field {
+	margin-top: 10px;
+	margin-left: auto;
+}
